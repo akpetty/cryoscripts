@@ -1,9 +1,9 @@
 ############################################################## 
 # Date: 20/05/16
-# Name: plot_atm_dms.py
+# Name: plot_atm_example.py
 # Author: Alek Petty
-# Description: Script to plot ATM overlaid on a DMS image
-# Input requirements: DMS image and ATM data for specific case studies
+# Description: Script to plot ATM data segment
+# Input requirements: ATM data file
 
 import matplotlib
 matplotlib.use("AGG")

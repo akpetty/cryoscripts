@@ -1,10 +1,8 @@
 ############################################################## 
 # Date: 25/05/16
 # Name: plot_icebridge_thickness.py
-# Author: Alek Petty
-# Description: Script to plot CS2 data
-# Input requirements: CS2 data
-# Notes - may need to install netCDF4 library. Can do this with the scipy netcdf reader also, btu I prefer this one.
+# Author: Alek PettyIB thicknessCS2 data
+# Input requirements: IB thickness data
 
 
 import matplotlib
