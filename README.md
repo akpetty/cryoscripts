@@ -65,9 +65,49 @@ You may need to add the link the anaconda install to the start of your PATH (so 
 ```
 export PATH=/Applications/anaconda/bin/:$PATH
 ```
+SO hopefully Python and COnda are no installed. If you try running the plot_CS2.py script you may get the following error
 
+```
+ImportError: No module named netCDF4
+```
+
+which implies we're missing a specific Python library (a netcdf reader that is more adbvanced than the built in SciPy reader). This is where conda comes in. Simply run: 
+
+```
+$ conda install netCDF4
+```
+
+and it should be reader to go.
+
+
+### Using Python
+
+There are a crazy number of Python tutorials on the web, and it depends what kind of learner you are/what your needs are. I'm not going to attempt to reinvent this wheel (although I did a couple of years back when I first got in to Python, so you can [check out that tutorial][pettytutor] if you'd like, but it may be a bit out-dated).
+
+I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an online [Data Science course][cheat] and seems to cover a lot of the basics in one. The [iPython notebook Python tutorial](Notebooks/3_Python_Basic_Concepts.ipynb) I found [online][ipynb] also seems pretty useful. Maybe let me know of any other resrouces you found useful and I can list them here
+
+[pettytutor]:<https://alekpetty.wordpress.com/2014/03/13/using-python/>
+[ipynb]:<https://github.com/gumption/Python_for_Data_Science>
+[cheat]:<https://github.com/justmarkham/python-reference>
 [2735]:<https://wiki.python.org/moin/Python2orPython3>  
 [EPD]: <https://www.enthought.com/products/epd/>
 [conda]:<http://conda.pydata.org/docs/intro.html>
 [git-repo-url]: <https://github.com/akpetty/cryoscripts.git>
+
+
+## Meetup plan
+
+To be updated after the first Meetup...
+
+Thinking something along the lines of a small (~20 minute) tutorial on a given topic, followed by some general Q&A about that or general Python problems. Plan something along the lines of... 
+
+* Meetup 0: Intro to the Meetup
+
+* Meetup 1: Plotting in Python
+
+* Meetup 2: Regression in Python
+
+* Meetup 3: iPython notebooks
+
+
 
