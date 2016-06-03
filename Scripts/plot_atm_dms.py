@@ -160,12 +160,12 @@ def plot_probdist():
 	savefig(figpath+'atm_dmsdist_'+str(xy_res)+'mxy_'+date+'_'+dms_time+int_method+str(int(min_ridge_height*100))+'_cm2.png', dpi=300)
 
 
-datapath='./Data_output/'
-rawdatapath = './Data/'
+datapath='../Data_output/'
+rawdatapath = '../Data/'
 ATM_path = rawdatapath+'ATM/'
 dms_path = rawdatapath+'DMS/'
 posAV_path =rawdatapath+'POSAV/'
-figpath='./Figures/'
+figpath='../Figures/'
 
 #norm = ro.MidpointNormalize(midpoint=0)
 

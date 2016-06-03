@@ -24,8 +24,8 @@ rc('font',**{'family':'sans-serif','sans-serif':['Arial']})
 # DECIDE ON MAP PROJECTION
 m = Basemap(projection='npstere',boundinglat=66,lon_0=0, resolution='l'  )
 
-datapath = './DATA/CS2/'
-outpath = './Figures/'
+datapath = '../DATA/CS2/'
+outpath = '../Figures/'
 
 date_str = '201503'
 

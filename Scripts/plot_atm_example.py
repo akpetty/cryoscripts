@@ -109,10 +109,10 @@ def get_atmqih5(atm_file, year, res=1, utc_time=1):
 		else:
 			return lon, lat, elevation
 
-datapath='./Data_output/'
-rawdatapath = './Data/'
+datapath='../Data_output/'
+rawdatapath = '../Data/'
 ATM_path = rawdatapath+'ATM'
-figpath='./Figures/'
+figpath='../Figures/'
 
 #norm = ro.MidpointNormalize(midpoint=0)
 

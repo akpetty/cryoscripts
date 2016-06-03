@@ -131,8 +131,8 @@ m=Basemap(projection='stere', lat_0=74, lon_0=-90,llcrnrlon=-150, llcrnrlat=58,u
 
 #my_cmap=perceptual_colormap("Linear_L", rawdatapath+'OTHER/CMAPS/', reverse=1)
 
-rawdatapath='./DATA/'
-figpath='./Figures/'
+rawdatapath='../DATA/'
+figpath='../Figures/'
 textwidth=3.
 aspect = m.ymax/m.xmax
 

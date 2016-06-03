@@ -54,8 +54,8 @@ def correlate(var1, var2):
     return trend, sig, r_a, intercept 
 
 
-datapath = './DATA'
-figpath='./Figures/'
+datapath = '../DATA'
+figpath='../Figures/'
 
 start_year=1980
 month=9
