@@ -65,7 +65,7 @@ You may need to add the link the anaconda install to the start of your PATH (so 
 ```
 $ export PATH=/Applications/anaconda/bin/:$PATH
 ```
-SO hopefully Python and COnda are no installed. If you try running the plot_CS2.py script you may get the following error
+So hopefully Python and Conda are no installed. If you try running the plot_CS2.py script you may get the following error
 
 ```
 ImportError: No module named netCDF4
@@ -77,7 +77,7 @@ which implies we're missing a specific Python library (a netcdf reader that is m
 $ conda install netCDF4
 ```
 
-and it should be reader to go.
+and it should be ready to go. I fyou have a problem running conda, check you have write permissions in that folder (you may need to ask IT to update this, I did).
 
 
 ### Using Python
