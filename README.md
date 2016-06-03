@@ -63,7 +63,7 @@ $ /Applications/anaconda/bin/python
 You may need to add the link the anaconda install to the start of your PATH (so it loads that version of Python before any other one you may have installed, e.g. the default Mac install or a Macports install:
 
 ```
-export PATH=/Applications/anaconda/bin/:$PATH
+$ export PATH=/Applications/anaconda/bin/:$PATH
 ```
 SO hopefully Python and COnda are no installed. If you try running the plot_CS2.py script you may get the following error
 
