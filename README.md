@@ -6,10 +6,10 @@ Contact: Alek Petty / www.alekpetty.com / @alekpetty
 
 This is the home of all things related to the NASA-Cryo Python meetup group. This is in no way affiliated with NASA.
 
-This page includes information about Python installation and getting started with Python. Also included are some example Python scripts that might be useful for Cryospheric Scientists (especially sea ice scientists interested in IceBridge/CryoSat-2 data, sorry land ice folk, but hopefully that will change in time). 
-More will hopefully be added by me, and hopefully others, who want to share a useful function/script over the coming months. I f you're familiar with GitHub you can try a push request, or just send me a file to upload. I can add your author info to the script header.
+This repo includes information about Python installation and getting started with Python. Also included are some example Python scripts that might be useful for Cryospheric Scientists (especially sea ice scientists interested in IceBridge/CryoSat-2 data, sorry land ice folk, but hopefully that will change in time). 
+More scripts will be added by me, and hopefully others, who want to share a useful function/script over the coming months. If you're familiar with GitHub you can try a push request, or just send me a file to upload. I can add your author info to the script header to credit your efforts.
 
-Note that I have included some data so the scripts will run, but contact me if you want more data to play with. None of these datasets are mine, but they are all publicly available (mainly through the NSIDC)
+Note that I have included some data for the scripts to run, but contact me if you want more data to play with. None of these datasets are mine, but they are all publicly available (mainly through the NSIDC)
 
 ### Layout
 
@@ -23,7 +23,7 @@ Pretty self-explanatory...
 An example iPython notebook that you can view in GitHub or on nbviewer, and run interactively using Jupyter (locally)
 
 * *[Scripts](Scripts)*   
-The random Python scripts that may be useful to play around with. Mainly plotting up some basic cryosphere datasets.
+Some Python scripts that may be useful to play around with. Mainly involve plotting up some basic cryosphere datasets.
 
 * *[Slides](Slides)*    
 Slides from the bi-weekly NASA-Cryo Python meetup sessions.
@@ -43,7 +43,7 @@ Conda is just the Python library installer, but conda is included with the Anaco
 
 *A quick note about Python 2.7/3.5...*  
 
-Python 3 is an upgrade to Python 2. The most stable version of each is 2.7 and 3.5 respectively. When you install Anaconda, it installed Python 2.7, whereas Anaconda3 installs Python 3.5. You can have loads of fun reading all about the differences [here][2735].
+Python 3 is an upgrade to Python 2. The most stable version of each is 2.7 and 3.5 respectively. When you install Anaconda, it installs Python 2.7, whereas Anaconda3 installs Python 3.5. You can have loads of fun reading all about the differences [here][2735].
 
 I haven't upgraded to Python 3.5 yet, as I can't really be bothered to check if all my scripts produce the same output, and I'm not sure all my libraries have been ported to 3.5. This is probably worth me thinking about some more, so this is something we can discuss in the meetup perhaps. For now I would suggest sticking with 2.7..
 
@@ -60,12 +60,12 @@ It should say something like:
 $ /Applications/anaconda/bin/python
 ```
 
-You may need to add the link the anaconda install to the start of your PATH (so it loads that version of Python before any other one you may have installed, e.g. the default Mac install or a Macports install:
+You may need to add a link to the anaconda install at the start of your PATH, so it loads that version of Python before any other one you may have installed, e.g. the default Mac install or a Macports install:
 
 ```
 $ export PATH=/Applications/anaconda/bin/:$PATH
 ```
-So hopefully Python and Conda are no installed. If you try running the plot_CS2.py script you may get the following error
+So hopefully Python and Conda are now installed. If you try running the plot_CS2.py script you may get the following error:
 
 ```
 ImportError: No module named netCDF4
@@ -77,14 +77,14 @@ which implies we're missing a specific Python library (a netcdf reader that is m
 $ conda install netCDF4
 ```
 
-and it should be ready to go. I fyou have a problem running conda, check you have write permissions in that folder (you may need to ask IT to update this, I did).
+and it should be ready to go. If you have a problem running conda, check you have write permissions in that folder (you may need to ask IT to update this, I did).
 
 
 ### Using Python
 
-There are a crazy number of Python tutorials on the web, and it depends what kind of learner you are/what your needs are. I'm not going to attempt to reinvent this wheel (although I did a couple of years back when I first got in to Python, so you can [check out that tutorial][pettytutor] if you'd like, but it may be a bit out-dated).
+There are a crazy number of Python tutorials on the web, and it depends what kind of learner you are/what your needs are. I'm not going to attempt to reinvent this wheel (although I did a couple of years back when I first got in to Python, so you can [check out that tutorial][pettytutor] if you'd like. It may be a bit out-dated).
 
-I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an online [Data Science course][cheat] and seems to cover a lot of the basics in one. The [iPython notebook Python tutorial](Notebooks/3_Python_Basic_Concepts.ipynb) I found [online][ipynb] also seems pretty useful. Maybe let me know of any other resrouces you found useful and I can list them here
+I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an online [Data Science course][cheat] and seems to cover a lot of the basics in one go. The [iPython notebook Python tutorial](Notebooks/3_Python_Basic_Concepts.ipynb) I found [online][ipynb] also seems pretty useful. Maybe let me know of any other resrouces you found useful and I can list them here
 
 [pettytutor]:<https://alekpetty.wordpress.com/2014/03/13/using-python/>
 [ipynb]:<https://github.com/gumption/Python_for_Data_Science>
