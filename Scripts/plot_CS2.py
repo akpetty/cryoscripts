@@ -16,7 +16,7 @@ from matplotlib import rc
 import numpy.ma as ma
 from mpl_toolkits.basemap import Basemap
 
-#SET OME FIGURE PARAMETERS
+#SET SOME FIGURE PARAMETERS
 rcParams['xtick.labelsize']=9
 rcParams['font.size']=9
 rc('font',**{'family':'sans-serif','sans-serif':['Arial']})

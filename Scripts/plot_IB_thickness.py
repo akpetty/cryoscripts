@@ -124,8 +124,6 @@ def get_ice_type(mplot, rawdatapath, year, res=1):
 
 	return ice_typeT, xpts_type, ypts_type
 
-
-
 #m = Basemap(projection='npstere',boundinglat=66,lon_0=0, resolution='l'  )
 m=Basemap(projection='stere', lat_0=74, lon_0=-90,llcrnrlon=-150, llcrnrlat=58,urcrnrlon=10, urcrnrlat=72)
 
