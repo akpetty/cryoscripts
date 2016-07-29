@@ -11,7 +11,15 @@ More scripts will be added by me, and hopefully others, who want to share a usef
 
 Note that I have included some data for the scripts to run, but contact me if you want more data to play with. None of these datasets are mine, but they are all publicly available (mainly through the NSIDC)
 
-### Layout
+### Meetups
+
+* *[Meetup 1](Meetups/Meetup_1): Intro to the Meetup and Python
+
+* *[Meetup 2](Meetups/Meetup_2.ipynb): Plotting, projecting, and gridding sea ice data
+
+* *[Meetup 2](Meetups/Meetup_3_Pandas.ipynb): Python Pandas
+
+### Repo Layout
 
 * *[Data](Data)*  
 Random data used by the example Python scripts
@@ -21,6 +29,9 @@ Pretty self-explanatory...
 
 * *[Notebooks](Notebooks)*   
 An example iPython notebook that you can view in GitHub or on nbviewer, and run interactively using Jupyter (locally)
+
+* *[Meetups](Meetups)*   
+Material used in the various meetups to-date
 
 * *[Scripts](Scripts)*   
 Some Python scripts that may be useful to play around with. Mainly involve plotting up some basic cryosphere datasets.
@@ -84,7 +95,7 @@ and it should be ready to go. If you have a problem running conda, check you hav
 
 There are a crazy number of Python tutorials on the web, and it depends what kind of learner you are/what your needs are. I'm not going to attempt to reinvent this wheel (although I did a couple of years back when I first got in to Python, so you can [check out that tutorial][pettytutor] if you'd like. It may be a bit out-dated).
 
-I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an online [Data Science course][cheat] and seems to cover a lot of the basics in one go. The [iPython notebook Python tutorial](Notebooks/3_Python_Basic_Concepts.ipynb) I found [online][ipynb] also seems pretty useful. Maybe let me know of any other resrouces you found useful and I can list them here
+I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an online [Data Science course][cheat] and seems to cover a lot of the basics in one go. The [iPython notebook Python tutorial](Notebooks/3_Python_Basic_Concepts.ipynb) I found [online][ipynb] also seems pretty useful. Also heard that the [Code Academy][codeacad] online Python tutorials are quick and accessible. Maybe let me know of any other resrouces you found useful and I can list them here
 
 [pettytutor]:<https://alekpetty.wordpress.com/2014/03/13/using-python/>
 [ipynb]:<https://github.com/gumption/Python_for_Data_Science>
@@ -93,21 +104,5 @@ I have included a Python [cheat sheet](cheat_sheet.py), which was copied from an
 [EPD]: <https://www.enthought.com/products/epd/>
 [conda]:<http://conda.pydata.org/docs/intro.html>
 [git-repo-url]: <https://github.com/akpetty/cryoscripts.git>
-
-
-## Meetup plan
-
-To be updated after the first Meetup...
-
-Thinking something along the lines of a small (~20 minute) tutorial on a given topic, followed by some general Q&A about that or general Python problems. Plan something along the lines of... 
-
-* Meetup 0: Intro to the Meetup
-
-* Meetup 1: Plotting in Python
-
-* Meetup 2: Regression in Python
-
-* Meetup 3: iPython notebooks
-
-
+[codeacad]:<https://www.codecademy.com/learn/python>
 
