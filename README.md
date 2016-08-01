@@ -17,7 +17,7 @@ Note that I have included some data for the scripts to run, but contact me if yo
 
 * *[Meetup 2](Meetups/Meetup_2.ipynb): Plotting, projecting, and gridding sea ice data
 
-* *[Meetup 2](Meetups/Meetup_3_Pandas.ipynb): Python Pandas
+* *[Meetup 3](Meetups/Meetup_3_Pandas.ipynb): Python Pandas
 
 ### Repo Layout
 
